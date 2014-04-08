@@ -46,7 +46,7 @@
 				background: transparent !important;
 			}
 			
-			#spacepeopleContainer
+			#container
 			{
 				width: 506px;
 				height: 250px;
@@ -54,7 +54,7 @@
 				background-color: #a10022;
 				background-size: 250px 187px;
 			}
-			#spacepeopleContainer *
+			#container *
 			{
 				font-weight: normal;
 			}
@@ -62,7 +62,7 @@
 			h1
 			{
 				font-size: 40px;
-				line-height: 120px;
+				line-height: 40px;
 				margin-top: 15px;
 				color: white;
 				text-shadow:0px -2px 0px black;
@@ -73,11 +73,28 @@
 			{
 				
 				margin: 0px auto;
-				padding-top: 20px;
 				font-size: 30px;
 				line-height: 30px;
+				margin-top: 15px;
 				color: white;
 				text-transform: uppercase;
+			}
+			p{
+				font-size: 16px;
+			}
+			img {
+				vertical-align: top;
+				width: 50px;
+				height: 50px;
+			}
+
+			td {
+				padding-right:20px;
+				padding-left: 10px;
+			}
+
+			table {
+				vertical-align: center;
 			}
 		</style>
 	
@@ -87,12 +104,28 @@
 	<body onload="init()">
 		<div id="main">
 		
-			<div>
-
+			<div id="container">
+				<table>
+					<tr>
+						<td>
 				<h2>Class in Session!</h2>
 				<h1>Web Lab</h1>
 				<h3>3-4:50</h3>
-			
+					</td>
+						<td>
+							<img src="me.jpg">
+						</td>
+						<td>
+							<p>
+								Colin Manikoth
+							</p>
+							<p>
+								Office Hours: 11-12 p.m.
+						</p>
+
+						</td>
+					</tr>
+				</table>
 			</div><!-- spacepeopleContainer -->
 
 		</div><!-- main -->
