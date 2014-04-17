@@ -1,2 +1,2 @@
-statusboard
+My Statusboard
 ===========
